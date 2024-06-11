@@ -1,0 +1,148 @@
+*{
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid rgb(255, 255, 255);
+  padding: 7px;
+  box-shadow: 0px 0px 10px rgb(228, 224, 224);
+}
+
+.navdiv{
+  display: flex;
+  
+}
+.navdiv h3{
+  list-style-type: none;
+  text-decoration: none;
+  border: 1px solid black;
+  padding: 5px;
+  margin-left: 28px;
+  border-radius: 7px;
+  font-size: 15px;
+
+}
+
+
+.navdiv i{
+  list-style-type: none;
+  text-decoration: none;
+  border: 1px solid black;
+  padding: 2px;
+  margin: 3px;
+  border-radius: 50%;
+  
+  
+}
+
+.class i{
+  border: 1px solid black;
+  padding: 2px;
+  border-radius: 10px;
+  background-color: rgb(243, 77, 17);
+
+}
+
+.class{
+  font-weight: 800;
+  font-size: 16px;
+}
+
+#log{
+  padding: 5px;
+  margin-right: 28px;
+  border: 1px solid rgb(225, 79, 0);
+  width: 60px;
+  border-radius:10px;
+  background-color: rgb(243, 77, 17);
+}
+
+#sign{
+  padding: 5px;
+  width: 60px;
+  border-radius:10px;
+  border: 2px solid black;
+}
+
+.main {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  
+}
+
+.avrila h1{
+  position: absolute;
+  right: 50%;
+  bottom: 50%;
+  transform: translate(50%,50%);
+  font-size: 90px;
+}
+
+.main img{
+  position:absolute;
+  width: 200px;
+  height: 280px;
+}
+
+.main #img1{
+  right:42%;
+  bottom: 25%;
+  z-index: 1;
+  transform: rotate(-28deg);
+
+}
+
+.main #img2{
+  right:42%;
+  bottom: 25%;
+  z-index: 1;
+  transform: rotate(-20deg);
+}
+
+.main #img3{
+  right:42%;
+  bottom: 25%;
+  z-index: 1;
+  transform: rotate(-11deg);
+}
+
+.main #img4{
+  right:42%;
+  bottom: 25%;
+  z-index: 1;
+  transform: rotate(-2deg);
+}
+
+
+.footer{
+  justify-content: space-between; 
+  display: flex;
+
+
+}
+.txt{
+  padding-left: 50px;
+  padding-top: 140px;
+  position: relative;
+}
+.left{
+  padding-left: 88%;
+  padding-bottom: 10px;
+  gap: 5px;
+
+}
+.ri-instagram-line,
+.ri-youtube-line,
+.ri-facebook-circle-line{
+  background-color:rgb(255, 125, 4) ;
+  border-radius: 50%;
+  padding: 7px;
+  display: inline;
+
+}
